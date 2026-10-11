@@ -40,6 +40,13 @@ Security operations teams handle incident records that can contain numerous aler
 | DevSecOps | Terraform, GitHub Actions, OIDC, scans, approvals and auditability |
 | Optional future Sentinel link | Read-only, least-privilege integration after MVP validation |
 
+## Architecture diagrams
+
+- **[Azure solution architecture](docs/diagrams/SOLUTION-ARCHITECTURE.md)** — Azure resource boundaries, backend/frontend, Microsoft Foundry, identity, Terraform state, OIDC delivery, and cost controls.
+- **[Logical investigation flow](docs/diagrams/LOGICAL-INVESTIGATION-FLOW.md)** — incident selection, authorization, validation, Foundry inference, evidence review, and safe failure paths.
+
+These are **proposed designs, not deployed infrastructure**. GitHub renders both diagrams directly using Mermaid.
+
 ## Logical architecture
 
 ```mermaid
