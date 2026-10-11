@@ -1,5 +1,12 @@
 # Solution architecture and functional specification
 
+## Architecture diagrams
+
+1. **[Azure solution architecture](diagrams/SOLUTION-ARCHITECTURE.md)** — resource and trust boundaries, GitHub-to-Azure deployment, operational controls.
+2. **[Logical investigation flow](diagrams/LOGICAL-INVESTIGATION-FLOW.md)** — end-to-end incident analysis decisions and error paths.
+
+Both are version-controlled diagrams rendered directly by GitHub, and both represent the proposed MVP rather than a currently running deployment.
+
 ## Purpose
 
 CloudGenius Azure AI Security Copilot is a planned, human-in-the-loop security-operations demonstration. It combines simulated Microsoft Sentinel incident records with a real Microsoft Foundry-hosted language model to generate analyst-readable findings. It is **not** Microsoft Security Copilot, a replacement for Sentinel, or an autonomous incident-response platform.
